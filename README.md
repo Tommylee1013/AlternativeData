@@ -1,5 +1,5 @@
 ## AlternativeData
-Financial Alternative Data
+Financial Alternative Data and Macro Data
 
 ### Freight Index
 
