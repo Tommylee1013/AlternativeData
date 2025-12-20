@@ -14,8 +14,12 @@ Financial Alternative Data and Macro Data
 - Bank of Japan Target Interest Rate
 - US Consumer Price Index
 - Japan Consumer Price Index
-- AAII Sentiment
-- NAAIM Exposure
+
+### Sentiment Data
+
+- AAII Sentiment (Weekly Tuesday)
+- NAAIM Exposure Index (Weekly Wednesday)
+- CNN Fear and Greed Index
 
 ### Commodity Price
 
