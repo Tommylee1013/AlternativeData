@@ -20,3 +20,4 @@ Financial Alternative Data and Macro Data
 ### Commodity Price
 
 - China Lithium Spot Price
+- China Steel Product Price (CNY/tonne)
