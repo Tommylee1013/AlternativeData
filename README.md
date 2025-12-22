@@ -25,3 +25,4 @@ Financial Alternative Data and Macro Data
 
 - China Lithium Spot Price
 - China Steel Product Price (CNY/tonne)
+- Lumber Futures (USD/board feet)
