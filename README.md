@@ -14,6 +14,8 @@ Financial Alternative Data and Macro Data
 - Bank of Japan Target Interest Rate
 - US Consumer Price Index
 - Japan Consumer Price Index
+- US Logistic Manager Index
+- US Retail Sales
 
 ### Market Data
 - OFR Financial Stress Index
