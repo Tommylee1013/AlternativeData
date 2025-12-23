@@ -15,14 +15,17 @@ Financial Alternative Data and Macro Data
 - US Consumer Price Index
 - Japan Consumer Price Index
 
+### Market Data
+- OFR Financial Stress Index
+
 ### Sentiment Data
 
 - AAII Sentiment (Weekly Tuesday)
 - NAAIM Exposure Index (Weekly Wednesday)
 - CNN Fear and Greed Index
 
-### Commodity Price
+### Commodity Data
 
-- China Lithium Spot Price
+- China Lithium Spot Price (CNY/tonne)
 - China Steel Product Price (CNY/tonne)
 - Lumber Futures (USD/board feet)
