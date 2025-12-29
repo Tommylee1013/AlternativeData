@@ -3,68 +3,64 @@ Financial Alternative Data and Macro Data
 
 ### Freight Index
 
-- Baltic Dry Index
-  - Proxy for global bulk trade demand and early-cycle industrial momentum.
-- World Container Index
-  - Measures global container shipping costs and supply chain inflation pressure.
-- China Containerized Freight Index
-  - Indicator of China-centric export logistics and trade competitiveness.
-- Baltic Air Freight Index
-  - High-frequency signal for time-sensitive trade, tech, and pharma demand.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **Baltic Dry Index (BDI)** | Daily (London) | Proxy for global bulk trade demand and early-cycle industrial momentum. |
+| **World Container Index (WCI)** | Weekly (Thursday) | Measures global container shipping costs and supply chain inflation pressure. |
+| **China Containerized Freight Index (CCFI)** | Weekly (Friday) | Indicator of China-centric export logistics and trade competitiveness. |
+| **Baltic Air Freight Index (BAI)** | Weekly (Monday) | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
 
 ### Macro Data
 
 #### USA
 
-- FED Target Interest Rate
-  - Anchor for global risk-free rate and monetary policy stance.
-- US Consumer Price Index
-  - Core inflation benchmark shaping Fed policy expectations.
-- US Logistic Manager Index
-  - Forward-looking indicator of US logistics activity and demand conditions.
-- US Retail Sales
-  - Direct measure of US consumption strength and demand-side momentum.
-- FED Target Rate Dot Plot
-  - Forward guidance proxy for policy path uncertainty and rate expectations.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **FED Target Interest Rate** | 8 times/year (FOMC) | Anchor for global risk-free rate and monetary policy stance. |
+| **US Consumer Price Index** | Monthly | Core inflation benchmark shaping Fed policy expectations. |
+| **US Logistic Manager Index** | Monthly | Forward-looking indicator of US logistics activity and demand conditions. |
+| **US Retail Sales** | Monthly | Direct measure of US consumption strength and demand-side momentum. |
+| **FED Target Rate Dot Plot** | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
   
 #### Japan
 
-- Bank of Japan Target Interest Rate
-  - Key driver of JPY carry trades and global liquidity conditions.
-- Japan Consumer Price Index
-  - Domestic inflation gauge affecting BOJ normalization risk.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **BOJ Target Interest Rate** | 8 times/year | Key driver of JPY carry trades and global liquidity conditions. |
+| **Japan CPI** | Monthly | Domestic inflation gauge affecting BOJ normalization risk. |
 
 #### South Korea
 
-- South Korea Export
-  - Cyclical indicator for global manufacturing and semiconductor demand.
+| Indicator | Release Timing | Key Description |
+| :--- |:---------------| :--- |
+| **South Korea Export** | Monthly        | Cyclical indicator for global manufacturing and semiconductor demand. |
 
 #### China
 
-- Taiwan Export
-  - High-sensitivity gauge for global electronics and tech supply chains.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **Taiwan Export** | Monthly | High-sensitivity gauge for global electronics and tech supply chains. |
 
 ### Market Data
 
-- OFR Financial Stress Index
-  - Composite measure of systemic financial stress and risk regime shifts.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **OFR Financial Stress Index** | Daily (T+2 lag) | Composite measure of systemic financial stress and risk regime shifts. |
 
 ### Sentiment Data
 
-- AAII Sentiment (Weekly Tuesday)
-  - Retail investor sentiment used as a contrarian signal.
-- NAAIM Exposure Index (Weekly Wednesday)
-  - Active manager equity exposure and positioning indicator.
-- CNN Fear and Greed Index
-  - Aggregated market sentiment and short-term risk appetite gauge.
+| Indicator | Release Timing | Key Description |
+| :--- | :--- | :--- |
+| **AAII Sentiment** | Weekly (Thursday) | Retail investor sentiment used as a contrarian signal. |
+| **NAAIM Exposure Index** | Weekly (Thursday) | Active manager equity exposure and positioning indicator. |
+| **CNN Fear and Greed Index** | Daily (Real-time) | Aggregated market sentiment and short-term risk appetite gauge. |
+| **SF Fed News Sentiment Index**| Weekly (Monday) | Daily economic sentiment from US news (NLP) tracking high-freq macro trends. |
 
 ### Commodity Data
 
-- China Lithium Spot Price (CNY/tonne)
-  - EV battery demand and new energy investment signal.
-- China Steel Product Price (CNY/tonne)
-  - Construction and infrastructure cycle indicator in China.
-- Lumber Futures (USD/board feet)
-  - US housing activity and real-economy inflation proxy.
-- AAA Average Gasoline Price (USD/gal)
-  - Real-time consumer energy inflation and purchasing power pressure.
+| Indicator | Unit | Release Timing | Key Description |
+| :--- | :--- | :--- | :--- |
+| **China Lithium Spot Price** | CNY/tonne | Daily | EV battery demand and new energy investment signal. |
+| **China Steel Product Price** | CNY/tonne | Daily | Construction and infrastructure cycle indicator in China. |
+| **Lumber Futures** | USD/board feet | Daily | US housing activity and real-economy inflation proxy. |
+| **AAA Average Gasoline Price** | USD/gal | Daily | Real-time consumer energy
