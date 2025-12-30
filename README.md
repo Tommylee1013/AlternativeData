@@ -20,6 +20,7 @@ Financial Alternative Data and Macro Data
 | **US Consumer Price Index** | Monthly | Core inflation benchmark shaping Fed policy expectations. |
 | **US Logistic Manager Index** | Monthly | Forward-looking indicator of US logistics activity and demand conditions. |
 | **US Retail Sales** | Monthly | Direct measure of US consumption strength and demand-side momentum. |
+| **US Unemployment Rate** | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function. |
 | **FED Target Rate Dot Plot** | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
   
 #### Japan
