@@ -3,12 +3,13 @@ Financial Alternative Data and Macro Data
 
 ### Freight Index
 
-| Indicator | Release Timing | Key Description |
-| :--- | :--- | :--- |
-| **Baltic Dry Index (BDI)** | Daily (London) | Proxy for global bulk trade demand and early-cycle industrial momentum. |
+| Indicator | Release Timing    | Key Description |
+| :--- |:------------------| :--- |
+| **Baltic Dry Index (BDI)** | Daily (London)    | Proxy for global bulk trade demand and early-cycle industrial momentum. |
 | **World Container Index (WCI)** | Weekly (Thursday) | Measures global container shipping costs and supply chain inflation pressure. |
-| **China Containerized Freight Index (CCFI)** | Weekly (Friday) | Indicator of China-centric export logistics and trade competitiveness. |
-| **Baltic Air Freight Index (BAI)** | Weekly (Monday) | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
+| **China Containerized Freight Index (CCFI)** | Weekly (Friday)   | Indicator of China-centric export logistics and trade competitiveness. |
+| **Baltic Air Freight Index (BAI)** | Weekly (Monday)   | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
+|**US Retail Traffic**| Weekly (Saturday) |Near-real-time gauge of in-store consumer activity; early read on retail demand and category momentum, often leading reported sales and inventory/last-mile shipping needs.|
 
 ### Macro Data
 
@@ -22,7 +23,12 @@ Financial Alternative Data and Macro Data
 | **US Retail Sales** | Monthly | Direct measure of US consumption strength and demand-side momentum. |
 | **US Unemployment Rate** | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function. |
 | **FED Target Rate Dot Plot** | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
-  
+| **ISM Manufacturing PMI** | Monthly | Broad indicator of US manufacturing activity, reflecting business cycle momentum and supply-demand conditions. |
+| **ISM Manufacturing PMI – New Orders** | Monthly | Forward-looking component capturing changes in manufacturing demand and future production expectations. |
+| **ISM Non-Manufacturing PMI** | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy. |
+| **ISM Non-Manufacturing PMI – Employment** | Monthly | Labor demand indicator within the services sector, signaling hiring momentum and wage pressure risks. |
+| **US Nonfarm Payrolls** | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility. |
+
 #### Japan
 
 | Indicator | Release Timing | Key Description |
