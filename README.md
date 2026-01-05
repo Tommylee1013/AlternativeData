@@ -3,13 +3,13 @@ Financial Alternative Data and Macro Data
 
 ### Freight Index
 
-| Indicator | Release Timing    | Key Description |
-| :--- |:------------------| :--- |
-| **Baltic Dry Index (BDI)** | Daily (London)    | Proxy for global bulk trade demand and early-cycle industrial momentum. |
-| **World Container Index (WCI)** | Weekly (Thursday) | Measures global container shipping costs and supply chain inflation pressure. |
+| Indicator                                    | Release Timing    | Key Description |
+|:---------------------------------------------|:------------------| :--- |
+| **Baltic Dry Index (BDI)**                   | Daily (London)    | Proxy for global bulk trade demand and early-cycle industrial momentum. |
+| **World Container Index (WCI)**              | Weekly (Thursday) | Measures global container shipping costs and supply chain inflation pressure. |
 | **China Containerized Freight Index (CCFI)** | Weekly (Friday)   | Indicator of China-centric export logistics and trade competitiveness. |
-| **Baltic Air Freight Index (BAI)** | Weekly (Monday)   | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
-|**US Retail Traffic**| Weekly (Saturday) |Near-real-time gauge of in-store consumer activity; early read on retail demand and category momentum, often leading reported sales and inventory/last-mile shipping needs.|
+| **Baltic Air Freight Index (BAI)**           | Weekly (Monday)   | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
+| **US Rail Traffic**                          | Weekly (Saturday) |High-frequency gauge of North American industrial and consumer goods flow; a leading physical indicator of manufacturing and retail inventory trends.|
 
 ### Macro Data
 
