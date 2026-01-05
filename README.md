@@ -28,6 +28,7 @@ Financial Alternative Data and Macro Data
 | **ISM Non-Manufacturing PMI** | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy. |
 | **ISM Non-Manufacturing PMI – Employment** | Monthly | Labor demand indicator within the services sector, signaling hiring momentum and wage pressure risks. |
 | **US Nonfarm Payrolls** | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility. |
+|**CB US Consumer Confidence**| Monthly | Survey-based measure of household optimism regarding current and future economic conditions, acting as a precursor to consumer spending.|
 
 #### Japan
 
