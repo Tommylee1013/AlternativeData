@@ -15,20 +15,21 @@ Financial Alternative Data and Macro Data
 
 #### USA
 
-| Indicator | Release Timing | Key Description |
-| :--- | :--- | :--- |
-| **FED Target Interest Rate** | 8 times/year (FOMC) | Anchor for global risk-free rate and monetary policy stance. |
-| **US Consumer Price Index** | Monthly | Core inflation benchmark shaping Fed policy expectations. |
-| **US Logistic Manager Index** | Monthly | Forward-looking indicator of US logistics activity and demand conditions. |
-| **US Retail Sales** | Monthly | Direct measure of US consumption strength and demand-side momentum. |
-| **US Unemployment Rate** | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function. |
-| **FED Target Rate Dot Plot** | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
-| **ISM Manufacturing PMI** | Monthly | Broad indicator of US manufacturing activity, reflecting business cycle momentum and supply-demand conditions. |
-| **ISM Manufacturing PMI – New Orders** | Monthly | Forward-looking component capturing changes in manufacturing demand and future production expectations. |
-| **ISM Non-Manufacturing PMI** | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy. |
+| Indicator                                  | Release Timing | Key Description |
+|:-------------------------------------------| :--- | :--- |
+| **FED Target Interest Rate**               | 8 times/year (FOMC) | Anchor for global risk-free rate and monetary policy stance. |
+| **US Consumer Price Index**                | Monthly | Core inflation benchmark shaping Fed policy expectations. |
+| **US Logistic Manager Index**              | Monthly | Forward-looking indicator of US logistics activity and demand conditions. |
+| **US Retail Sales**                        | Monthly | Direct measure of US consumption strength and demand-side momentum. |
+| **US Unemployment Rate**                   | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function. |
+| **FED Target Rate Dot Plot**               | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
+| **ISM Manufacturing PMI**                  | Monthly | Broad indicator of US manufacturing activity, reflecting business cycle momentum and supply-demand conditions. |
+| **ISM Manufacturing PMI – New Orders**     | Monthly | Forward-looking component capturing changes in manufacturing demand and future production expectations. |
+| **ISM Non-Manufacturing PMI**              | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy. |
 | **ISM Non-Manufacturing PMI – Employment** | Monthly | Labor demand indicator within the services sector, signaling hiring momentum and wage pressure risks. |
-| **US Nonfarm Payrolls** | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility. |
-|**CB US Consumer Confidence**| Monthly | Survey-based measure of household optimism regarding current and future economic conditions, acting as a precursor to consumer spending.|
+| **US Nonfarm Payrolls**                    | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility. |
+| **CB US Consumer Confidence**              | Monthly | Survey-based measure of household optimism regarding current and future economic conditions, acting as a precursor to consumer spending.|
+| **US GDP**                                 | Quarterly (Advance / Second / Final) | Comprehensive measure of US economic growth; core input for business cycle assessment and medium-term policy expectations. |
 
 #### Japan
 
@@ -48,6 +49,8 @@ Financial Alternative Data and Macro Data
 | Indicator | Release Timing | Key Description |
 | :--- | :--- | :--- |
 | **Taiwan Export** | Monthly | High-sensitivity gauge for global electronics and tech supply chains. |
+| **China PMI** | Monthly | Leading indicator of China’s manufacturing and services activity; reflects domestic demand momentum and global supply-chain conditions. |
+| **China CPI** | Monthly | Measure of consumer inflation pressure in China; signals policy flexibility and impacts real demand and margins. |
 
 ### Market Data
 
