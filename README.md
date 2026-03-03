@@ -10,26 +10,28 @@ Financial Alternative Data and Macro Data
 | **China Containerized Freight Index (CCFI)** | Weekly (Friday)   | Indicator of China-centric export logistics and trade competitiveness. |
 | **Baltic Air Freight Index (BAI)**           | Weekly (Monday)   | High-frequency signal for time-sensitive trade, tech, and pharma demand. |
 | **US Rail Traffic**                          | Weekly (Saturday) |High-frequency gauge of North American industrial and consumer goods flow; a leading physical indicator of manufacturing and retail inventory trends.|
+| **KOBC Container Composite Index (KCCI)**    | Weekly (Monday)   | Korea-origin container freight composite (13 routes) capturing export logistics conditions and near-term shipping-cost inflation pressure. |
 
 ### Macro Data
 
 #### USA
 
-| Indicator                                  | Release Timing | Key Description |
-|:-------------------------------------------| :--- | :--- |
-| **FED Target Interest Rate**               | 8 times/year (FOMC) | Anchor for global risk-free rate and monetary policy stance. |
-| **US Consumer Price Index**                | Monthly | Core inflation benchmark shaping Fed policy expectations. |
-| **US Logistic Manager Index**              | Monthly | Forward-looking indicator of US logistics activity and demand conditions. |
-| **US Retail Sales**                        | Monthly | Direct measure of US consumption strength and demand-side momentum. |
-| **US Unemployment Rate**                   | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function. |
-| **FED Target Rate Dot Plot**               | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations. |
-| **ISM Manufacturing PMI**                  | Monthly | Broad indicator of US manufacturing activity, reflecting business cycle momentum and supply-demand conditions. |
-| **ISM Manufacturing PMI – New Orders**     | Monthly | Forward-looking component capturing changes in manufacturing demand and future production expectations. |
-| **ISM Non-Manufacturing PMI**              | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy. |
-| **ISM Non-Manufacturing PMI – Employment** | Monthly | Labor demand indicator within the services sector, signaling hiring momentum and wage pressure risks. |
-| **US Nonfarm Payrolls**                    | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility. |
-| **CB US Consumer Confidence**              | Monthly | Survey-based measure of household optimism regarding current and future economic conditions, acting as a precursor to consumer spending.|
-| **US GDP**                                 | Quarterly (Advance / Second / Final) | Comprehensive measure of US economic growth; core input for business cycle assessment and medium-term policy expectations. |
+| Indicator                                  | Release Timing | Key Description                                                                                                                          |
+|:-------------------------------------------| :--- |:-----------------------------------------------------------------------------------------------------------------------------------------|
+| **FED Target Interest Rate**               | 8 times/year (FOMC) | Anchor for global risk-free rate and monetary policy stance.                                                                             |
+| **US Consumer Price Index**                | Monthly | Core inflation benchmark shaping Fed policy expectations.                                                                                |
+| **US Logistic Manager Index**              | Monthly | Forward-looking indicator of US logistics activity and demand conditions.                                                                |
+| **US Retail Sales**                        | Monthly | Direct measure of US consumption strength and demand-side momentum.                                                                      |
+| **US Unemployment Rate**                   | Monthly | Labor market slack indicator influencing wage pressure and the Fed’s reaction function.                                                  |
+| **FED Target Rate Dot Plot**               | Quarterly | Forward guidance proxy for policy path uncertainty and rate expectations.                                                                |
+| **ISM Manufacturing PMI**                  | Monthly | Broad indicator of US manufacturing activity, reflecting business cycle momentum and supply-demand conditions.                           |
+| **ISM Manufacturing PMI – New Orders**     | Monthly | Forward-looking component capturing changes in manufacturing demand and future production expectations.                                  |
+| **ISM Non-Manufacturing PMI**              | Monthly | Service-sector activity indicator measuring growth in the largest segment of the US economy.                                             |
+| **ISM Non-Manufacturing PMI – Employment** | Monthly | Labor demand indicator within the services sector, signaling hiring momentum and wage pressure risks.                                    |
+| **ISM Non-Manufacturing PMI – New Orders** | Monthly | Forward-looking component capturing changes in service manufacturing demand and future production expectations.                          |
+| **US Nonfarm Payrolls**                    | Monthly | Key labor market indicator measuring net job creation, central to Fed policy expectations and market volatility.                         |
+| **CB US Consumer Confidence**              | Monthly | Survey-based measure of household optimism regarding current and future economic conditions, acting as a precursor to consumer spending. |
+| **US GDP**                                 | Quarterly (Advance / Second / Final) | Comprehensive measure of US economic growth; core input for business cycle assessment and medium-term policy expectations.               |
 
 #### Japan
 
@@ -94,9 +96,9 @@ Financial Alternative Data and Macro Data
 #### China Flash Market
 
 | Indicator                    | Unit                            | Release Timing | Key Description                                                                                                                           |
-| :--------------------------- |:--------------------------------| :------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| **CFM DRAM Composite Index** | Index points                    | Daily          | Composite indicator summarizing broad DRAM price conditions across key categories, used to track the DRAM cycle and inflection points.    |
-| **CFM NAND Composite Index** | Index points                    | Daily          | Composite indicator summarizing broad NAND price conditions across key categories, used to track the NAND cycle and regime shifts.        |
+| :--------------------------- |:--------------------------------|:---------------| :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **CFM DRAM Composite Index** | Index points                    | Weekly         | Composite indicator summarizing broad DRAM price conditions across key categories, used to track the DRAM cycle and inflection points.    |
+| **CFM NAND Composite Index** | Index points                    | Weekly         | Composite indicator summarizing broad NAND price conditions across key categories, used to track the NAND cycle and regime shifts.        |
 | **CFM Flash Wafer**          | USD (per wafer, spec-dependent) | Daily          | Upstream flash wafer spot pricing used as a leading gauge of NAND supply tightness and near-term cost pressure for module makers.         |
 | **CFM DDR**                  | USD (chip/module, spec-dependent)  | Daily          | DDR memory spot pricing benchmark reflecting PC/server demand and channel inventory, used to monitor near-term DRAM pricing momentum.     |
 | **CFM RDIMM**                | USD (module, spec-dependent)       | Daily          | Server memory module (Registered DIMM) spot pricing; sensitive to data-center demand, OEM procurement cycles, and supply allocation.      |
