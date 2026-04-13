@@ -1,0 +1,366 @@
+# Macro indicator catalog
+# Most macro files share: Base Date | Release Date | Time | TZ | Actual | Forecast | Previous
+# column_index 0 = "Actual" value column
+
+indicators:
+
+  # ── USA ──────────────────────────────────────────────────────────
+
+  - indicator_id: US_CPI_YOY
+    name: US CPI Year-over-Year
+    file: data/macro/USA/USCPI YoY.xlsx
+    sheet: data
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: US
+    frequency: monthly
+    unit: pct
+    source: BLS
+    release_lag_days: 13
+    collection_method: manual_excel
+    description: US Consumer Price Index, year-over-year change
+
+  - indicator_id: US_PMI
+    name: US ISM Manufacturing PMI
+    file: data/macro/USA/USPMI.xlsx
+    sheet: NAPMPMI
+    column_index: 0
+    category: macro
+    subcategory: manufacturing
+    country: US
+    frequency: monthly
+    unit: index
+    source: ISM
+    release_lag_days: 1
+    collection_method: manual_excel
+
+  - indicator_id: US_PMI_NEW_ORDERS
+    name: US ISM New Orders Index
+    file: data/macro/USA/USPMI.xlsx
+    sheet: NAPMNEWO
+    column_index: 0
+    category: macro
+    subcategory: manufacturing
+    country: US
+    frequency: monthly
+    unit: index
+    source: ISM
+    release_lag_days: 1
+    collection_method: manual_excel
+
+  - indicator_id: US_PMI_NMI
+    name: US ISM Non-Manufacturing Index
+    file: data/macro/USA/USPMI.xlsx
+    sheet: NAPMNMI
+    column_index: 0
+    category: macro
+    subcategory: services
+    country: US
+    frequency: monthly
+    unit: index
+    source: ISM
+    release_lag_days: 3
+    collection_method: manual_excel
+
+  - indicator_id: US_PMI_NM_NEW_ORDERS
+    name: US ISM Non-Manufacturing New Orders
+    file: data/macro/USA/USPMI.xlsx
+    sheet: NAPMNNO
+    column_index: 0
+    category: macro
+    subcategory: services
+    country: US
+    frequency: monthly
+    unit: index
+    source: ISM
+    release_lag_days: 3
+    collection_method: manual_excel
+
+  - indicator_id: US_PMI_NM_SUPPLIER_DEL
+    name: US ISM Non-Manufacturing Supplier Deliveries
+    file: data/macro/USA/USPMI.xlsx
+    sheet: NAPMNSD
+    column_index: 0
+    category: macro
+    subcategory: services
+    country: US
+    frequency: monthly
+    unit: index
+    source: ISM
+    release_lag_days: 3
+    collection_method: manual_excel
+
+  - indicator_id: US_GDP
+    name: US GDP Quarter-over-Quarter (Annualized)
+    file: data/macro/USA/USGDP.xlsx
+    sheet: USGDP
+    column_index: 0
+    category: macro
+    subcategory: output
+    country: US
+    frequency: quarterly
+    unit: pct
+    source: BEA
+    release_lag_days: 30
+    collection_method: manual_excel
+
+  - indicator_id: FED_RATE
+    name: Federal Funds Target Rate
+    file: data/macro/USA/FED Target Rate.xlsx
+    sheet: Fed Target Rate
+    column_index: 0
+    category: macro
+    subcategory: policy_rate
+    country: US
+    frequency: irregular
+    unit: pct
+    source: Federal Reserve
+    release_lag_days: 0
+    collection_method: manual_excel
+
+  - indicator_id: US_NFP
+    name: US Nonfarm Payrolls
+    file: data/macro/USA/Nonfarm Payrolls.xlsx
+    sheet: PAYEMS
+    column_index: 0
+    category: macro
+    subcategory: labor
+    country: US
+    frequency: monthly
+    unit: k_persons
+    source: BLS
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  - indicator_id: US_RETAIL_SALES
+    name: US Retail Sales (RSAFS)
+    file: data/macro/USA/Retail Sales.xlsx
+    sheet: Retail Sales
+    column_index: 0
+    category: macro
+    subcategory: consumption
+    country: US
+    frequency: monthly
+    unit: mln_usd
+    source: Census Bureau
+    release_lag_days: 14
+    collection_method: manual_excel
+
+  - indicator_id: US_CONSUMER_CONF
+    name: US Conference Board Consumer Confidence
+    file: data/macro/USA/US Consumer Confidence.xlsx
+    sheet: CONCCONF
+    column_index: 0
+    category: macro
+    subcategory: sentiment
+    country: US
+    frequency: monthly
+    unit: index
+    source: Conference Board
+    release_lag_days: 0
+    collection_method: manual_excel
+
+  - indicator_id: US_CONSUMER_SENT
+    name: US Michigan Consumer Sentiment
+    file: data/macro/USA/US Consumer Sentiment.xlsx
+    sheet: CONSSENT
+    column_index: 0
+    category: macro
+    subcategory: sentiment
+    country: US
+    frequency: monthly
+    unit: index
+    source: University of Michigan
+    release_lag_days: 0
+    collection_method: manual_excel
+
+  - indicator_id: US_PCE_YOY
+    name: US PCE Price Index Year-over-Year
+    file: data/macro/USA/US PCE.xlsx
+    sheet: PCECYOY
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: US
+    frequency: monthly
+    unit: pct
+    source: BEA
+    release_lag_days: 30
+    collection_method: manual_excel
+    description: Fed's preferred inflation gauge
+
+  - indicator_id: US_PCE_SERVICES_YOY
+    name: US PCE Services Year-over-Year
+    file: data/macro/USA/US PCE.xlsx
+    sheet: PCESRVY
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: US
+    frequency: monthly
+    unit: pct
+    source: BEA
+    release_lag_days: 30
+    collection_method: manual_excel
+
+  - indicator_id: US_UNEMPLOYMENT
+    name: US Unemployment Rate
+    file: data/macro/USA/US Unemployment rate.xlsx
+    sheet: USURTOT
+    column_index: 0
+    category: macro
+    subcategory: labor
+    country: US
+    frequency: monthly
+    unit: pct
+    source: BLS
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  - indicator_id: US_LMI
+    name: Logistics Managers Index
+    file: data/macro/USA/Logistic manager index.xlsx
+    sheet: LMI
+    column_index: 0
+    category: macro
+    subcategory: logistics
+    country: US
+    frequency: monthly
+    unit: index
+    source: LMI Council
+    collection_method: manual_excel
+
+  - indicator_id: US_LMI_FUTURES
+    name: Logistics Managers Index (Futures)
+    file: data/macro/USA/Logistic manager index.xlsx
+    sheet: LMI
+    column_index: 1
+    category: macro
+    subcategory: logistics
+    country: US
+    frequency: monthly
+    unit: index
+    source: LMI Council
+    collection_method: manual_excel
+
+  # ── China ────────────────────────────────────────────────────────
+
+  - indicator_id: CN_CPI_YOY
+    name: China CPI Year-over-Year
+    file: data/macro/China/China CPI.xlsx
+    sheet: CNCPIYOY
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: CN
+    frequency: monthly
+    unit: pct
+    source: NBS China
+    release_lag_days: 10
+    collection_method: manual_excel
+
+  - indicator_id: CN_PMI
+    name: China Manufacturing PMI
+    file: data/macro/China/China PMI.xlsx
+    sheet: CPMINDX
+    column_index: 0
+    category: macro
+    subcategory: manufacturing
+    country: CN
+    frequency: monthly
+    unit: index
+    source: NBS China
+    release_lag_days: 1
+    collection_method: manual_excel
+
+  - indicator_id: TW_EXPORT_YOY
+    name: Taiwan Export Orders Year-over-Year
+    file: data/macro/China/Taiwan Export.xlsx
+    sheet: Taiwan Export
+    column_index: 0
+    category: macro
+    subcategory: trade
+    country: TW
+    frequency: monthly
+    unit: pct
+    source: Taiwan MOEA
+    release_lag_days: 20
+    collection_method: manual_excel
+
+  # ── Europe ───────────────────────────────────────────────────────
+
+  - indicator_id: EU_CPI_YOY
+    name: Eurozone CPI Year-over-Year
+    file: data/macro/Europe/CPI.xlsx
+    sheet: CPICEMU
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: EU
+    frequency: monthly
+    unit: pct
+    source: Eurostat
+    release_lag_days: 14
+    collection_method: manual_excel
+
+  - indicator_id: ECB_RATE
+    name: ECB Main Refinancing Rate
+    file: data/macro/Europe/Interest Rate.xlsx
+    sheet: EUAPRRT
+    column_index: 0
+    category: macro
+    subcategory: policy_rate
+    country: EU
+    frequency: irregular
+    unit: pct
+    source: ECB
+    release_lag_days: 0
+    collection_method: manual_excel
+
+  # ── Japan ────────────────────────────────────────────────────────
+
+  - indicator_id: JP_CPI_YOY
+    name: Japan CPI Year-over-Year
+    file: data/macro/Japan/Japan CPI YoY.xlsx
+    sheet: JPCPI YoY
+    column_index: 0
+    category: macro
+    subcategory: inflation
+    country: JP
+    frequency: monthly
+    unit: pct
+    source: Statistics Bureau Japan
+    release_lag_days: 20
+    collection_method: manual_excel
+
+  - indicator_id: BOJ_RATE
+    name: Bank of Japan Policy Rate
+    file: data/macro/Japan/Japan Interest Rate.xlsx
+    sheet: JP_interest
+    column_index: 0
+    category: macro
+    subcategory: policy_rate
+    country: JP
+    frequency: irregular
+    unit: pct
+    source: Bank of Japan
+    release_lag_days: 0
+    collection_method: manual_excel
+
+  # ── South Korea ──────────────────────────────────────────────────
+
+  - indicator_id: KR_EXPORT_YOY
+    name: South Korea Export Year-over-Year
+    file: data/macro/South Korea/South Korea Export.xlsx
+    sheet: KR Export
+    column_index: 0
+    category: macro
+    subcategory: trade
+    country: KR
+    frequency: monthly
+    unit: pct
+    source: Korea Customs Service
+    release_lag_days: 1
+    collection_method: manual_excel
+    description: Leading indicator for Korean equities and semiconductor demand

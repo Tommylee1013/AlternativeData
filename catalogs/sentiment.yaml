@@ -1,0 +1,101 @@
+# Sentiment indicator catalog
+
+indicators:
+
+  # ── AAII ─────────────────────────────────────────────────────────
+  - indicator_id: AAII_BULL
+    name: AAII Bullish Sentiment
+    file: data/sentiment/AAII Sentiment.xlsx
+    sheet: AAII
+    column_index: 0
+    category: sentiment
+    subcategory: survey
+    country: US
+    frequency: weekly
+    unit: pct
+    source: AAII
+    collection_method: manual_excel
+
+  - indicator_id: AAII_NEUTRAL
+    name: AAII Neutral Sentiment
+    file: data/sentiment/AAII Sentiment.xlsx
+    sheet: AAII
+    column_index: 1
+    category: sentiment
+    subcategory: survey
+    country: US
+    frequency: weekly
+    unit: pct
+    source: AAII
+    collection_method: manual_excel
+
+  - indicator_id: AAII_BEAR
+    name: AAII Bearish Sentiment
+    file: data/sentiment/AAII Sentiment.xlsx
+    sheet: AAII
+    column_index: 2
+    category: sentiment
+    subcategory: survey
+    country: US
+    frequency: weekly
+    unit: pct
+    source: AAII
+    collection_method: manual_excel
+
+  # ── CNN Fear & Greed ─────────────────────────────────────────────
+  - indicator_id: CNN_FEAR_GREED
+    name: CNN Fear and Greed Index
+    file: data/sentiment/CNN Fear and Greed Index.xlsx
+    sheet: CNNFNGI
+    column_index: 0
+    category: sentiment
+    subcategory: composite
+    country: US
+    frequency: daily
+    unit: index
+    source: CNN
+    collection_method: manual_excel
+    description: 0 = extreme fear, 100 = extreme greed
+
+  # ── SF Fed News Sentiment ────────────────────────────────────────
+  - indicator_id: SF_FED_SENT
+    name: SF Fed News Sentiment Index
+    file: data/sentiment/FED News Sentiment Index.xlsx
+    sheet: Data
+    column_index: 0
+    category: sentiment
+    subcategory: nlp
+    country: US
+    frequency: daily
+    unit: index
+    source: SF Federal Reserve
+    collection_method: manual_excel
+    description: NLP-based sentiment from financial news articles
+
+  # ── NAAIM ────────────────────────────────────────────────────────
+  - indicator_id: NAAIM
+    name: NAAIM Exposure Index (Average)
+    file: data/sentiment/NAAIM Exposure Index.xlsx
+    sheet: NAAIM
+    column_index: 0
+    category: sentiment
+    subcategory: positioning
+    country: US
+    frequency: weekly
+    unit: pct
+    source: NAAIM
+    collection_method: manual_excel
+    description: Active investment manager equity exposure, 0-200 scale
+
+  - indicator_id: NAAIM_MEDIAN
+    name: NAAIM Exposure Index (Median)
+    file: data/sentiment/NAAIM Exposure Index.xlsx
+    sheet: NAAIM
+    column_index: 3
+    category: sentiment
+    subcategory: positioning
+    country: US
+    frequency: weekly
+    unit: pct
+    source: NAAIM
+    collection_method: manual_excel

@@ -1,0 +1,76 @@
+# Market indicator catalog
+# Note: KB Daily FX report is text (research commentary), not numeric — skipped.
+# Note: SNP SubIndustry is OHLC price data — better suited for fact_price, skipped.
+
+indicators:
+
+  # ── OFR Financial Stress Index ───────────────────────────────────
+  - indicator_id: OFR_FSI
+    name: OFR Financial Stress Index
+    file: data/market/OFR Financial Stress Index.xlsx
+    sheet: OFR FSI
+    column_index: 0
+    category: market
+    subcategory: stress
+    country: US
+    frequency: daily
+    unit: index
+    source: Office of Financial Research
+    release_lag_days: 2
+    collection_method: manual_excel
+    description: Composite financial stress measure (credit, equity, funding, volatility)
+
+  - indicator_id: OFR_FSI_CREDIT
+    name: OFR FSI Credit Component
+    file: data/market/OFR Financial Stress Index.xlsx
+    sheet: OFR FSI
+    column_index: 1
+    category: market
+    subcategory: stress
+    country: US
+    frequency: daily
+    unit: index
+    source: Office of Financial Research
+    collection_method: manual_excel
+
+  - indicator_id: OFR_FSI_EQUITY
+    name: OFR FSI Equity Valuation Component
+    file: data/market/OFR Financial Stress Index.xlsx
+    sheet: OFR FSI
+    column_index: 2
+    category: market
+    subcategory: stress
+    country: US
+    frequency: daily
+    unit: index
+    source: Office of Financial Research
+    collection_method: manual_excel
+
+  - indicator_id: OFR_FSI_FUNDING
+    name: OFR FSI Funding Component
+    file: data/market/OFR Financial Stress Index.xlsx
+    sheet: OFR FSI
+    column_index: 4
+    category: market
+    subcategory: stress
+    country: US
+    frequency: daily
+    unit: index
+    source: Office of Financial Research
+    collection_method: manual_excel
+
+  - indicator_id: OFR_FSI_VOLATILITY
+    name: OFR FSI Volatility Component
+    file: data/market/OFR Financial Stress Index.xlsx
+    sheet: OFR FSI
+    column_index: 5
+    category: market
+    subcategory: stress
+    country: US
+    frequency: daily
+    unit: index
+    source: Office of Financial Research
+    collection_method: manual_excel
+
+  # ── USDKRW (from fact_fx, but loading as indicator for now) ─────
+  # KB Daily FX report has text commentary, not rate data. Skipped.

@@ -1,0 +1,182 @@
+# Commodity indicator catalog
+
+indicators:
+
+  # ── Gasoline (AAA) ───────────────────────────────────────────────
+  - indicator_id: COM_GASOLINE_REGULAR
+    name: US Regular Gasoline Price (AAA)
+    file: data/commodity/AAA Gasoline.xlsx
+    sheet: gasoline
+    column_index: 0
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: daily
+    unit: usd_per_gallon
+    source: AAA
+    collection_method: manual_excel
+
+  - indicator_id: COM_GASOLINE_DIESEL
+    name: US Diesel Price (AAA)
+    file: data/commodity/AAA Gasoline.xlsx
+    sheet: gasoline
+    column_index: 3
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: daily
+    unit: usd_per_gallon
+    source: AAA
+    collection_method: manual_excel
+
+  # ── Aluminum ─────────────────────────────────────────────────────
+  - indicator_id: COM_ALUMINUM
+    name: Aluminum Price (LME)
+    file: data/commodity/Aluminum.xlsx
+    sheet: Aluminum
+    column_index: 0
+    category: commodity
+    subcategory: metals
+    country: GLOBAL
+    frequency: daily
+    unit: usd_per_ton
+    source: LME
+    collection_method: manual_excel
+
+  # ── EIA Weekly Supply ────────────────────────────────────────────
+  - indicator_id: EIA_PRODUCT_SUPPLIED
+    name: US Weekly Petroleum Product Supplied
+    file: data/commodity/EIA Weekly Supply Estimation.xlsx
+    sheet: Product Supplied
+    column_index: 0
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: weekly
+    unit: k_bbl_per_day
+    source: EIA
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  - indicator_id: EIA_CRUDE_INVENTORY
+    name: US Weekly Crude Oil Stocks
+    file: data/commodity/EIA Weekly Supply Estimation.xlsx
+    sheet: Inventory
+    column_index: 0
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: weekly
+    unit: k_bbl
+    source: EIA
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  - indicator_id: EIA_CRUDE_PRODUCTION
+    name: US Weekly Crude Oil Production
+    file: data/commodity/EIA Weekly Supply Estimation.xlsx
+    sheet: Production
+    column_index: 0
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: weekly
+    unit: k_bbl_per_day
+    source: EIA
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  - indicator_id: EIA_REFINERY_CAPACITY
+    name: US Weekly Refinery Operable Capacity
+    file: data/commodity/EIA Weekly Supply Estimation.xlsx
+    sheet: Operate
+    column_index: 0
+    category: commodity
+    subcategory: energy
+    country: US
+    frequency: weekly
+    unit: pct
+    source: EIA
+    release_lag_days: 5
+    collection_method: manual_excel
+
+  # ── Lithium ──────────────────────────────────────────────────────
+  - indicator_id: COM_LITHIUM
+    name: Lithium Carbonate Price (Close)
+    file: data/commodity/Lithium.xlsx
+    sheet: Lithium
+    column_index: 3
+    category: commodity
+    subcategory: metals
+    country: CN
+    frequency: daily
+    unit: cny_per_ton
+    source: Shanghai Metals Market
+    collection_method: manual_excel
+
+  # ── Lumber ───────────────────────────────────────────────────────
+  - indicator_id: COM_LUMBER
+    name: Lumber Futures Price
+    file: data/commodity/Lumber Futures.xlsx
+    sheet: lumber
+    column_index: 0
+    category: commodity
+    subcategory: construction
+    country: US
+    frequency: daily
+    unit: usd_per_mbf
+    source: CME
+    collection_method: manual_excel
+
+  # ── Steel ────────────────────────────────────────────────────────
+  - indicator_id: COM_STEEL_COLD
+    name: Cold Rolled Steel Price (China)
+    file: data/commodity/Steel.xlsx
+    sheet: steel
+    column_index: 0
+    category: commodity
+    subcategory: metals
+    country: CN
+    frequency: daily
+    unit: cny_per_ton
+    source: Mysteel
+    collection_method: manual_excel
+
+  - indicator_id: COM_STEEL_HOT
+    name: Hot Rolled Steel Price (China)
+    file: data/commodity/Steel.xlsx
+    sheet: steel
+    column_index: 1
+    category: commodity
+    subcategory: metals
+    country: CN
+    frequency: daily
+    unit: cny_per_ton
+    source: Mysteel
+    collection_method: manual_excel
+
+  - indicator_id: COM_STEEL_BILLET
+    name: Steel Billet Price (China)
+    file: data/commodity/Steel.xlsx
+    sheet: steel
+    column_index: 2
+    category: commodity
+    subcategory: metals
+    country: CN
+    frequency: daily
+    unit: cny_per_ton
+    source: Mysteel
+    collection_method: manual_excel
+
+  - indicator_id: COM_STEEL_SCRAP
+    name: Steel Scrap Price (China)
+    file: data/commodity/Steel.xlsx
+    sheet: steel
+    column_index: 3
+    category: commodity
+    subcategory: metals
+    country: CN
+    frequency: daily
+    unit: cny_per_ton
+    source: Mysteel
+    collection_method: manual_excel

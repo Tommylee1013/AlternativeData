@@ -1,0 +1,339 @@
+# Freight indicator catalog
+# Each entry maps one indicator_id to one (file, sheet, column) in the Excel data.
+# column_index is 0-based within the value columns (i.e., after the 4 standard header cols).
+
+indicators:
+
+  # ── Baltic Dry Index (baltic dry index.xlsx) ─────────────────────
+  - indicator_id: BDI
+    name: Baltic Dry Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 0
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+    description: Composite of Capesize, Panamax, Supramax shipping costs
+
+  - indicator_id: BSI
+    name: Baltic Supramax Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 1
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BCI
+    name: Baltic Capesize Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 2
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BCTI
+    name: Baltic Capesize Time Charter Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 3
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BPI
+    name: Baltic Panamax Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 4
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BHSI
+    name: Baltic Handysize Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 5
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BLNG
+    name: Baltic LNG Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 6
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BLPG
+    name: Baltic LPG Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 7
+    category: freight
+    subcategory: shipping
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: FBX
+    name: Freightos Baltic Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 8
+    category: freight
+    subcategory: container
+    country: GLOBAL
+    frequency: daily
+    unit: usd_per_feu
+    source: Freightos/Baltic Exchange
+    collection_method: manual_excel
+
+  - indicator_id: BDTI
+    name: Baltic Dirty Tanker Index
+    file: data/freight/baltic dry index.xlsx
+    sheet: BDI
+    column_index: 9
+    category: freight
+    subcategory: tanker
+    country: GLOBAL
+    frequency: daily
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  # ── China Containerized Freight Index (china containerized freight index.xlsx) ──
+  # Headline composite from each sheet only. Sub-routes available for later expansion.
+  - indicator_id: CCFI
+    name: China Containerized Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CCFI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+    description: Composite container freight index from Chinese ports
+
+  - indicator_id: SCFI
+    name: Shanghai Containerized Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: SCFI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: CBFI
+    name: China Coastal Bulk Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CBFI
+    column_index: 0
+    category: freight
+    subcategory: bulk
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: CBCFI
+    name: China Coastal Coal Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CBCFI
+    column_index: 0
+    category: freight
+    subcategory: bulk
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: CDFI
+    name: China Import Dry Bulk Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CDFI
+    column_index: 0
+    category: freight
+    subcategory: bulk
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: FDI
+    name: Fanchuan Dry Bulk Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: FDI
+    column_index: 0
+    category: freight
+    subcategory: bulk
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: CTFI
+    name: China Import Tanker Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CTFI
+    column_index: 0
+    category: freight
+    subcategory: tanker
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: CICFI
+    name: China Import Container Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: CICFI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  - indicator_id: SEAFI
+    name: Southeast Asia Freight Index
+    file: data/freight/china containerized freight index.xlsx
+    sheet: SEAFI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: CN
+    frequency: weekly
+    unit: index
+    source: Shanghai Shipping Exchange
+    collection_method: manual_excel
+
+  # ── World Container Index (world container index.xlsx) ───────────
+  - indicator_id: WCI
+    name: World Container Index (Composite)
+    file: data/freight/world container index.xlsx
+    sheet: WCI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: GLOBAL
+    frequency: weekly
+    unit: usd_per_feu
+    source: Drewry
+    collection_method: manual_excel
+
+  - indicator_id: WCI_SHA_RTM
+    name: WCI Shanghai to Rotterdam
+    file: data/freight/world container index.xlsx
+    sheet: WCI
+    column_index: 1
+    category: freight
+    subcategory: container
+    country: GLOBAL
+    frequency: weekly
+    unit: usd_per_feu
+    source: Drewry
+    collection_method: manual_excel
+
+  - indicator_id: WCI_SHA_LA
+    name: WCI Shanghai to Los Angeles
+    file: data/freight/world container index.xlsx
+    sheet: WCI
+    column_index: 3
+    category: freight
+    subcategory: container
+    country: GLOBAL
+    frequency: weekly
+    unit: usd_per_feu
+    source: Drewry
+    collection_method: manual_excel
+
+  # ── Baltic Air Freight Index (Baltic air freight index.xlsx) ─────
+  - indicator_id: BAI
+    name: Baltic Air Freight Index (Composite)
+    file: data/freight/Baltic air freight index.xlsx
+    sheet: BAI
+    column_index: 0
+    category: freight
+    subcategory: airfreight
+    country: GLOBAL
+    frequency: weekly
+    unit: index
+    source: Baltic Exchange
+    collection_method: manual_excel
+
+  # ── KOBC Container Composite Index ──────────────────────────────
+  - indicator_id: KCCI
+    name: Korea Ocean Business Container Composite Index
+    file: data/freight/KOBC Container Composite Index.xlsx
+    sheet: KCCI
+    column_index: 0
+    category: freight
+    subcategory: container
+    country: KR
+    frequency: weekly
+    unit: index
+    source: Korea Ocean Business Corporation
+    collection_method: manual_excel
+
+  # ── US Rail Traffic ─────────────────────────────────────────────
+  - indicator_id: USRT
+    name: US Rail Traffic
+    file: data/freight/US Rail Traffic.xlsx
+    sheet: USRT
+    column_index: 0
+    category: freight
+    subcategory: rail
+    country: US
+    frequency: weekly
+    unit: k_carloads
+    source: Association of American Railroads
+    collection_method: manual_excel
