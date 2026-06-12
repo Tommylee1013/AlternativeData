@@ -1,0 +1,1 @@
+select * from metadata.instrument_master

@@ -23,7 +23,7 @@ def _get_last_dates(con: duckdb.DuckDBPyConnection) -> dict[str, date]:
 def update_catalog_indicators(db_path: str, dry_run: bool = False) -> dict[str, dict]:
     """Update indicators from YAML catalogs. Returns {category: {'new_rows': int, 'indicators_updated': int, 'errors': []}}"""
     import yaml
-    from load_indicators import extract_rows, upsert_dim_indicator, insert_fact_rows, load_catalog
+    from legacy.load_indicators import extract_rows, upsert_dim_indicator, insert_fact_rows, load_catalog
 
     con = duckdb.connect(db_path, read_only=dry_run)
     last_dates = _get_last_dates(con)
@@ -80,7 +80,7 @@ def update_catalog_indicators(db_path: str, dry_run: bool = False) -> dict[str, 
 
 def update_industry_indicators(db_path: str, dry_run: bool = False) -> dict[str, dict]:
     """Update CFM + TrendForce industry indicators. Returns same format."""
-    from load_industry import load_cfm, load_trendforce
+    from legacy.load_industry import load_cfm, load_trendforce
 
     con = duckdb.connect(db_path, read_only=dry_run) if not dry_run else None
 

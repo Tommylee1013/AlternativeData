@@ -1,0 +1,35 @@
+2026-06-12 17:40:44 | INFO | src.dataloader.build_db | DuckDB 초기 구축 Job 시작 | database=C:\Users\krm\PycharmProjects\AlternativeData\database\alternative_data.duckdb
+2026-06-12 17:40:44 | INFO | src.dataloader.build_db | Parquet 파일 탐색 완료 | index_files=3 | macro_files=10
+2026-06-12 17:40:44 | INFO | src.dataloader.build_db | Metadata Excel 로드 시작 | path=C:\Users\krm\PycharmProjects\AlternativeData\data\metadata.xlsx
+2026-06-12 17:40:44 | INFO | src.dataloader.build_db | Metadata 테이블 생성 완료 | table=metadata.master | rows=644
+2026-06-12 17:40:45 | INFO | src.dataloader.build_db | Index 테이블 생성 완료 | table=market.index_data | files=3 | rows=282229
+2026-06-12 17:40:45 | INFO | src.dataloader.build_db | Macro 테이블 생성 완료 | table=market.macro_data | files=10 | rows=5147
+2026-06-12 17:40:45 | INFO | src.dataloader.build_db | Database 품질검사 완료 | index_null_keys=0 | macro_null_keys=0 | index_duplicate_groups=0 | macro_duplicate_groups=0
+2026-06-12 17:40:45 | INFO | src.dataloader.build_db | DuckDB 초기 구축 Job 완료 | metadata_rows=644 | index_rows=282229 | macro_rows=5147
+2026-06-12 17:51:22 | INFO | src.dataloader.build_db | DuckDB build job started | database=C:\Users\krm\PycharmProjects\AlternativeData\database\alternative_data.duckdb
+2026-06-12 17:51:22 | INFO | src.dataloader.build_db | Parquet file discovery completed | index_files=3 | macro_files=10
+2026-06-12 17:51:22 | INFO | src.dataloader.build_db | Parquet schema validation completed | data_type=index | files=3
+2026-06-12 17:51:22 | INFO | src.dataloader.build_db | Parquet schema validation completed | data_type=macro | files=10
+2026-06-12 17:51:23 | ERROR | src.dataloader.build_db | DuckDB build job failed.
+Traceback (most recent call last):
+  File "C:\Users\krm\PycharmProjects\AlternativeData\src\dataloader\build_db.py", line 593, in build_duckdb
+    connection = duckdb.connect(
+        str(DATABASE_PATH)
+    )
+_duckdb.IOException: IO Error: Cannot open file "C:\Users\krm\PycharmProjects\AlternativeData\database\alternative_data.duckdb": The process cannot access the file because it is being used by another process.
+
+File is already open in 
+C:\Program Files\JetBrains\PyCharm 2026.1\jbr\bin\java.exe (PID 23636)
+2026-06-12 17:52:31 | INFO | src.dataloader.build_db | DuckDB build job started | database=C:\Users\krm\PycharmProjects\AlternativeData\database\alternative_data.duckdb
+2026-06-12 17:52:31 | INFO | src.dataloader.build_db | Parquet file discovery completed | index_files=3 | macro_files=10
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Parquet schema validation completed | data_type=index | files=3
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Parquet schema validation completed | data_type=macro | files=10
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | DuckDB connection opened | database=C:\Users\krm\PycharmProjects\AlternativeData\database\alternative_data.duckdb
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | DuckDB schemas created or verified | schemas=metadata,market,macro
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Loading metadata Excel file | path=C:\Users\krm\PycharmProjects\AlternativeData\data\metadata.xlsx
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Metadata table created | table=metadata.instrument_master | rows=644
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Index table created | table=market.index_data | files=3 | rows=282229
+2026-06-12 17:52:32 | INFO | src.dataloader.build_db | Macro table created | table=macro.macro_data | files=10 | rows=5147
+2026-06-12 17:52:33 | INFO | src.dataloader.build_db | Database validation completed | index_null_keys=0 | macro_null_keys=0 | index_duplicate_groups=0 | macro_duplicate_groups=0
+2026-06-12 17:52:33 | INFO | src.dataloader.build_db | DuckDB build job completed successfully | metadata_rows=644 | index_rows=282229 | macro_rows=5147
+2026-06-12 17:52:33 | INFO | src.dataloader.build_db | DuckDB connection closed.
